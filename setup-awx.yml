@@ -5,6 +5,8 @@
   pre_tasks:
     - name: 'Install o Python'
       raw: 'apt-get install -y python'
+    - name: 'Install o Python3'
+      raw: 'apt-get install -y python3'
     - name: 'Update o Repo'
       raw: 'apt-get -y update'
 - hosts: awx
