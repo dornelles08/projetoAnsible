@@ -34,12 +34,12 @@
     force: yes
 - name: Create file
   file:
-    path: /tmp/awx/installer/inventory
+    path: /tmp/awx/installer/inventoryng
     state: touch
 
 - name: Insert/Update inventoryng
   blockinfile:
-    path: /tmp/awx/installer/inventory
+    path: /tmp/awx/installer/inventoryng
     block: |
       #Gerado Via Ansible
       localhost ansible_connection=local ansible_python_interpreter="/usr/bin/env python3"
