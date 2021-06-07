@@ -7,6 +7,3 @@
     file:
       path: "/tmp/testeawx"
       state: touch
-
-  
-    

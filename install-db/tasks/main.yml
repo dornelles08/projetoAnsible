@@ -1,2 +1,4 @@
 ---
 # tasks file for install-db
+- import_taks: mysql.yml
+- import_taks: configure.yml
