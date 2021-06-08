@@ -1,3 +1,3 @@
 ---
 # tasks file for install-wp
-- import_taks: wp.yml
+- import_tasks: wp.yml
